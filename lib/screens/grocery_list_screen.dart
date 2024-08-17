@@ -55,6 +55,9 @@ class GroceryListScreen extends StatelessWidget {
                 },
               ),
               onTap: (){
+
+              //  Navigator.pushNamed(context, '/Groceryitemscreen',);
+
                 Navigator.push(
                   context,
                   MaterialPageRoute(

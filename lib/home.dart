@@ -16,23 +16,20 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-int _selectedIndex = 0;
+//int _selectedIndex = 0;
 
 static List<Widget> pages = [
  ExploreScreen(),
  RecipesScreen(),
  const GroceryScreen(),
- //TodayRecipeListView(),
-  //   //Card1(recipe:TodayRecipe(authorName: 'hhhh', ),),
-  //  Card2(),
-  //  Card3(),
+
 ];
 
-void _onItemTapped(int index){
-  setState(() {
-    _selectedIndex = index;
-  });
-}
+// void _onItemTapped(int index){
+//   setState(() {
+//     _selectedIndex = index;
+//   });
+// }
 
   @override
   Widget build(BuildContext context){
